@@ -1,0 +1,7 @@
+type LogAccountCreated @entity {
+  id: ID!
+  sender: Bytes!
+  owner: Bytes! 
+  account: Bytes! 
+  origin: Bytes!
+}
